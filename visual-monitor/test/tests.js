@@ -72,7 +72,7 @@ describe('Visual monitor testing', function() {
           ],
         hide:
           [
-            '#menu-item-3377 > a > span'
+           // '#menu-item-3377 > a > span'
           ],
         screenWidth: selectedCaps == 'chrome' ? [1200] : undefined,
       }, resultsCallback)
