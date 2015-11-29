@@ -67,9 +67,13 @@ describe('Visual monitor testing', function() {
         remove:
           [
             // Top carousel.
-            '#homepage-slider'
+            '#homepage-slider',
+            '#slide-nav'
           ],
-        hide: [],
+        hide:
+          [
+            '#menu-item-3377 > a > span'
+          ],
         screenWidth: selectedCaps == 'chrome' ? [1200] : undefined,
       }, resultsCallback)
       .call(done);
